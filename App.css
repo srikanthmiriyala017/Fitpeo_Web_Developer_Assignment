@@ -1,0 +1,25 @@
+/* src/App.css */
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+}
+.App{
+  display: contents;
+  flex-direction: column;
+  height: 100%;
+}
+.app-container {
+  flex: 1;
+  display: flex;
+}
+
+.side-drawer {
+  width: 15%; 
+  min-width: 216px;
+  height: 100%;
+}
